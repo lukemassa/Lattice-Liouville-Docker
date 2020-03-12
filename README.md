@@ -24,3 +24,14 @@ output path = /output
 ```
 
 In this example, afterwards you can pick up the results from `/tmp/lattice-liouville-output` on the host system.
+
+```
+
+License
+-------
+
+The original code at https://github.com/tgbudd/Lattice-Liouville uses the MIT License, and this repo follows suit. The following is from the original repo:
+
+This source code may be reused without limitations according to the MIT license. If you use this code in your scientific publication, please cite the accompanying paper:
+
+J. Ambjorn, T. Budd, *Geodesic distances in quantum Liouville gravity*, preprint, [arXiv:1405.3424](http://arxiv.org/abs/1405.3424)
