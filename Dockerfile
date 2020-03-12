@@ -13,7 +13,7 @@ WORKDIR /src
 RUN cp -r /tmp/fftwpp/* /src/.
 RUN cp -r /tmp/liouville/* /src/.
 
-# I apologize for this travisty
+# I apologize for this travesty
 RUN ln -s /usr/lib64/libstdc++.so.6 /usr/lib64/libstdc++.so 
 
 
