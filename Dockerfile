@@ -15,6 +15,8 @@ RUN cp -r /tmp/liouville/* /src/.
 
 # I apologize for this travisty
 RUN ln -s /usr/lib64/libstdc++.so.6 /usr/lib64/libstdc++.so 
+
+
 RUN clang -lm -ldl -std=c++11 -lstdc++  shortest_cycle.cpp liouville.cpp fftw++.cc -lfftw3 -o /CYCLE
 
 ENTRYPOINT ["/CYCLE"]
