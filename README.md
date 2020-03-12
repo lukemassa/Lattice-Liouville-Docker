@@ -8,7 +8,7 @@ Full disclosure I don't know c++ build proccesses, so this is probably not the c
 
 The original is done interactively, so you should be able to just run `docker run -it  lmassa/lattice-liouville:0.1`
 
-Here I mount in a dir so we can grab the results afterards.
+Here I mount in a dir so we can grab the results afterwards.
 ```
 lmassa@lmassa-dev:~$ docker run -v /tmp/lattice-liouville-output:/output -it  lmassa/lattice-liouville:0.1
 width = 512
@@ -23,7 +23,7 @@ output path = /output
 ...
 ```
 
-In this example, afterwards you can pick up the results from `/tmp/lattice-liouville-output` on the host system.
+In this example, you can pick up the results from `/tmp/lattice-liouville-output` on the host system.
 
 ## License
 
