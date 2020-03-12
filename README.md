@@ -25,10 +25,7 @@ output path = /output
 
 In this example, afterwards you can pick up the results from `/tmp/lattice-liouville-output` on the host system.
 
-```
-
-License
--------
+## License
 
 The original code at https://github.com/tgbudd/Lattice-Liouville uses the MIT License, and this repo follows suit. The following is from the original repo:
 
